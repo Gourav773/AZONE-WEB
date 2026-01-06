@@ -5,6 +5,22 @@ window.addEventListener("scroll", () => {
 });
 
 
+// ================= CLOSE NAVBAR ON MOBILE LINK CLICK =================
+const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+const menuToggle = document.getElementById('menu');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth < 992) {   // only mobile
+      const bsCollapse = new bootstrap.Collapse(menuToggle, {
+        toggle: false
+      });
+      bsCollapse.hide();
+    }
+  });
+});
+
+
 // ================= Animated Counters =================
 const counters = document.querySelectorAll('.counter');
 let countersStarted = false;

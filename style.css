@@ -48,12 +48,7 @@ html, body{
 }
 
 /* ===== FOOTER ===== */
-.footer{
-  background:#000;
-  color:#777;
-  padding:25px 10px;
-  width:100%;
-}
+
 
 /* ===== MOBILE FIXES ===== */
 @media(max-width:768px){
@@ -425,14 +420,14 @@ html, body{
 }
 
 .office-card h5{
-  color:#0d6efd;
+  color:black;
   margin-bottom:15px;
 }
 
 .office-card button{
   background:#fff;
-  border:1px solid #0d6efd;
-  color:#0d6efd;
+  border:2px solid black;
+  color:black;
   padding:8px 22px;
   border-radius:8px;
 }
@@ -464,7 +459,7 @@ html, body{
 .submit-btn{
   margin-top:30px;
   width:100%;
-  background:#0d6efd;
+  background:black;
   color:white;
   border:none;
   padding:14px;
@@ -525,4 +520,86 @@ html, body{
 
 .overlay h5 {
   color: #fff;
+}
+
+
+.footer {
+  background: linear-gradient(135deg, #0d0d0d, #111);
+  color: #ccc;
+  position: relative;
+}
+
+.footer h5 {
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #28a745;
+}
+
+.newsletter-input {
+  padding: 8px 12px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  flex: 1;
+}
+
+.newsletter-btn {
+  padding: 8px 15px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter-btn:hover {
+  background: #1c7c2b;
+}
+
+.social-icons a {
+  color: #ccc;
+  font-size: 18px;
+  margin: 0 8px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #28a745;
+}
+
+/* Back to top button */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #28a745;
+  border: none;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+#backToTop:hover {
+  background: #1c7c2b;
 }
