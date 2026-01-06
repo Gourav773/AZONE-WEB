@@ -23,7 +23,7 @@ body {
 }
 
 /* HERO */
-/* .hero {
+.hero {
   height: 100vh;
   background:
     linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)),
@@ -31,7 +31,7 @@ body {
 
   background-size: cover;
   background-position: center;
-} */
+}
 
 
 .hero {
