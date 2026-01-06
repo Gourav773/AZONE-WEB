@@ -48,14 +48,14 @@ window.addEventListener('scroll', function() {
 });
 
 // Auto-collapse mobile navbar on link click
-const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-const navbarCollapse = document.querySelector('.navbar-collapse');
+// const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+// const navbarCollapse = document.querySelector('.navbar-collapse');
 
-navLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    new bootstrap.Collapse(navbarCollapse, { toggle: true });
-  });
-});
+// navLinks.forEach(link => {
+//   link.addEventListener('click', () => {
+//     new bootstrap.Collapse(navbarCollapse, { toggle: true });
+//   });
+// });
 
 
 // AOS INIT
