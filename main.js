@@ -1,5 +1,4 @@
-
-// NAVBAR SCROLL
+// NAVBAR SCROLL EFFECT
 window.addEventListener("scroll", () => {
   document.querySelector(".navbar")
     .classList.toggle("scrolled", window.scrollY > 50);
@@ -10,6 +9,7 @@ AOS.init({
   duration: 1000,
   once: true
 });
+
 
 // CONTACT FORM VALIDATION
 document.getElementById("contactForm").addEventListener("submit", function(e) {
